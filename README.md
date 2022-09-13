@@ -8,18 +8,18 @@
 ## The KNN Algorithm
 - Load the data
 - Initialize **K** to your chosen number of neighbors
-- Calculate the **Euclidean distance** of K number of neighbors
-- Take the K nearest neighbors as per the calculated Euclidean distance.
+- Calculate the distance of K number of neighbors by using **Euclidean distance** or **Manhattan distance**.
+- Take the K nearest neighbors as per the calculated Euclidean distance or Manhattan distance.
 - Among these k neighbors, count the number of the data points in each category.
 - Assign the new data points to that category for which the number of the neighbor is maximum.
 
-Suppose we have a new data point and we need to put it in the required category
+Suppose, we have a new data point and we need to put it in the required category
 
 ![Image](https://static.javatpoint.com/tutorial/machine-learning/images/k-nearest-neighbor-algorithm-for-machine-learning3.png)
 
 Firstly, we will choose the number of neighbors, so we will choose the `k=5`.
 
-The Euclidean distance is the distance between two points, which we have already studied in geometry. It can be calculated as:
+Calculating the distance between two points by using Euclidean distance, which we have already studied in geometry. It can be calculated as:
 
 ![Image](https://static.javatpoint.com/tutorial/machine-learning/images/k-nearest-neighbor-algorithm-for-machine-learning4.png)
 
